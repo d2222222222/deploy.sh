@@ -1,4 +1,3 @@
-rm -rf deploy
 sudo pacman -S lsd yazi neofetch neovim
 rm -rf ~/.config/nvim/
 git clone https://github.com/LazyVim/starter ~/.config/nvim/
@@ -11,7 +10,7 @@ mv config ~/.config/i3/config
 mv .Xresources ~/.Xresources
 mv init.lua ~/.config/nvim/init.lua
 cd
-rm -rf deploy
+rm -rf deploy.sh
 #git clone https://github.com/d2222222222/yayinstall
 #cd yayinstall
 #bash yayinstall
