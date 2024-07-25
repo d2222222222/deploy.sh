@@ -23,8 +23,8 @@ mv init.lua ~/.config/nvim/init.lua
 cd
 rm -rf deploy
 rm -rf Hack.zip
-git clone https://github.com/d2222222222/yayinstall
-cd yayinstall
+git clone https://github.com/d2222222222/yay-installer
+cd yayinstaller
 bash yayinstall
 cd
 yay -S pfetch
