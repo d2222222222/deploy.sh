@@ -24,7 +24,7 @@ cd
 rm -rf deploy
 rm -rf Hack.zip
 git clone https://github.com/d2222222222/yay-installer
-cd yayinstaller
+cd yay-installer
 bash yayinstall
 cd
 yay -S pfetch
