@@ -1,6 +1,9 @@
-echo "yazi is your file manager,when you are in yay downloads you need to do a for all packages and n for showing diffs read what comes up so u dont fuck it.pfetch instead of neofetch,will reboot at the end, script starts in 30 seconds."
+echo "be prepared to read you have 30 seconds"
+sleep 5
+echo "yazi is your file manager,you have firefox,htop,c and python.my custom neovim,i3 and Xterm complete with a font that has icons for full text file icons.when you are in yay downloads you need to do a for all packages and n for showing diffs read what comes up so u dont fuck it.pfetch instead of neofetch,will reboot at the end, script starts in 30 seconds."
 sleep 30
-sudo pacman -S lsd yazi neovim zip unzip firefox wget
+clear
+sudo pacman -S lsd yazi neovim zip unzip firefox wget htop gcc python3 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 unzip Hack.zip -d Hack
 mkdir -p /usr/local/share/fonts
