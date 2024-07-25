@@ -1,6 +1,6 @@
 echo "be prepared to read you have 30 seconds"
 sleep 5
-echo "yazi is your file manager,you have firefox,htop,c and python.my custom neovim,i3 and Xterm complete with a font that has icons for full text file icons.when you are in yay downloads you need to do a for all packages and n for showing diffs read what comes up so u dont fuck it.pfetch instead of neofetch,will reboot at the end, script starts in 30 seconds."
+echo "yazi is your file manager,you have firefox,htop,c and python.my custom neovim,i3 and Xterm complete with a font that has icons for stuff like showing filetypes in yazi.when you are in yay downloads you need to do A for witch packages packages and N for showing diffs read what comes up so u dont fuck it.pfetch instead of neofetch,will reboot at the end.."
 sleep 30
 clear
 sudo pacman -S lsd yazi neovim zip unzip firefox wget htop gcc python3 
