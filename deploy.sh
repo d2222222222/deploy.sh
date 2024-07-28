@@ -1,4 +1,4 @@
-echo "After the system reboots there is a file named helpme.Open it with lolcat helpme."
+echo "After the system reboots there is a file named helpme.Open it with nvim helpme."
 sleep 10
 clear
 sudo pacman -Syu
@@ -20,6 +20,7 @@ mv config ~/.config/i3/config
 mv .Xresources ~/.Xresources
 mv init.lua ~/.config/nvim/init.lua
 mv .bashrc ~/.bashrc
+mv helpme ~
 cd
 rm -rf deploy
 rm -rf Hack.zip
